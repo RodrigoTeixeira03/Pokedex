@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <h1>Pokedex</h1>
+        <div id="search-container">
+            <input type="text" id="search" placeholder="Buscar por nombre o ID">
+            <select id="type-filter">
+            <option value="">Seleccionar tipo</option>
+            <option value="normal">Normal</option>
+            <option value="fighting">Lucha</option>
+            <option value="flying">Volador</option>
+            <option value="poison">Veneno</option>
+            <option value="ground">Tierra</option>
+            <option value="rock">Roca</option>
+            <option value="bug">Bicho</option>
+            <option value="ghost">Fantasma</option>
+            <option value="steel">Acero</option>
+            <option value="fire">Fuego</option>
+            <option value="water">Agua</option>
+            <option value="grass">Planta</option>
+            <option value="electric">Eléctrico</option>
+            <option value="psychic">Psíquico</option>
+            <option value="ice">Hielo</option>
+            <option value="dragon">Dragón</option>
+            <option value="dark">Siniestro</option>
+            <option value="fairy">Hada</option>
+            </select>
+            <button id="search-btn">Buscar</button>
+        </div>
+    </header>
+    <main id="pokedex"></main>
+    <div id="pagination">
+        <button id="prev-btn">Anterior</button>
+        <button id="next-btn">Siguiente</button>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>
+
+
+
